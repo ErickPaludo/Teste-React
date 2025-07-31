@@ -1,0 +1,40 @@
+.item-container {
+  padding: 12px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.item-container:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #6b6b6b;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.icon-content {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.titleItem {
+  color: white;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  max-width: 50px;
+  word-wrap: break-word;
+  line-height: 1.2;
+}
